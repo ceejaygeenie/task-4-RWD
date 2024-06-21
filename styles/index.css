@@ -447,7 +447,7 @@ ul li a {
 /* this is for mobile screen */
 
 
-@media(max-width: 375px) {
+@media(min-width: 375px) {
 
     header {
         padding: 10px;
