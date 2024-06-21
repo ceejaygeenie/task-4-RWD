@@ -155,3 +155,65 @@ ul li a {
     font-weight: 400;
     line-height: 20px;
 }
+
+.feature-section {
+    min-width: 768px;
+    height: 480px;
+    padding: 0 80px 0 80px;
+    padding: 60px;
+    
+
+   
+}
+
+.feat-head {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 54px;
+    text-align: center;
+    margin-bottom: 60px;
+
+}
+
+.feat-head-txt {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 60px;
+
+
+    
+}
+
+.feature-cont {
+    width: 1280px;
+    height: 248px;
+    display: flex;
+    gap: 20px;
+    padding: 0 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.feat {
+    width: 305px;
+    height: 248px;
+    border-radius: 30px;
+    background-color: #E2F1E8;
+    gap: 16px;
+    padding: 32px 40px 32px 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.icon {
+    width: 60px;
+    height: 60px;
+}
+
+.feature-cont .feat h4 {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+}
