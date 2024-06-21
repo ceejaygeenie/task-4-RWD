@@ -441,7 +441,7 @@ ul li a {
 
 /* this is for mobile screen */
 
-@media(max-width: 320px) {
+@media(max-width: 375px) {
 
 
     .hmm {
