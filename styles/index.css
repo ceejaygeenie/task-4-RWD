@@ -441,6 +441,7 @@ ul li a {
 
 /* this is for mobile screen */
 
+
 @media(max-width: 375px) {
 
 
@@ -458,15 +459,6 @@ ul li a {
         list-style: none;
     }
     
-    ul li a {
-        gap: 40px;
-        font-size: 16px;
-        font-weight: 400;
-        color: #181A18;
-        line-height: 24px;
-        text-decoration: none;
-        padding-left: 20px;
-    }
 
     .logo {
         width: 130px;
@@ -474,11 +466,11 @@ ul li a {
     }
     
     .hero-section {
-        display: flex;
+        /* display: flex; */
         max-width: 320px;
-        height: 767px;
+        height: 748px;
         background-image: url(../images/Image\ \(1\).png);
-        background-position: center;
+        background-position: right;
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -490,8 +482,8 @@ ul li a {
     .hero-text {
     display: flex;
     flex-direction: column;
-    width: 200px;
-    height: 150px;
+    width: 300px;
+    height: 230px;
     border-radius: 0 30px 30px 0;
     padding: 60px 80px 60px 80px;
     gap: 24px;
@@ -503,16 +495,16 @@ ul li a {
 }
 
 .hero-title {
-    font-size: 42px;
-    line-height: 62px;
+    font-size: 40px;
+    line-height: 46px;
     color: #181A18;
     font-weight: 700;
 }
 
 .hero-txt {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 20px;
     color: #181A18;
 }
 
@@ -538,8 +530,9 @@ ul li a {
 
     .future-section {
     display: flex;
-    width: 700px;
-    height: 378px;
+    flex-direction: column;
+    width: 350px;
+    height: 552px;
     margin: 100px auto;
     
 }
@@ -547,9 +540,9 @@ ul li a {
 .future-pic-cont {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    width: 350px;
-    height: 378px;
-    border-radius: 60px 0 0 60px;
+    width: 342px;
+    height: 320px;
+    border-radius: 60px 60px 0 0;
     
 }
 
@@ -574,7 +567,7 @@ ul li a {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border-radius: 0 0 0 60px;
+    
     
 }
 
@@ -590,9 +583,10 @@ ul li a {
 .future-txt-cont {
     display: flex;
     flex-direction: column;
-    gap: 24px;
-    width: 350px;
-    border-radius: 0 60px 60px 0;
+    gap: 16px;
+    width: 342px;
+    height: 230px;
+    border-radius: 0 0 0 60px;
     background-color: #F2F0F2;
     color: #181A18;
     justify-content: center;
@@ -604,6 +598,7 @@ ul li a {
     font-size: 24px;
     line-height: 48px;
     font-weight: 700;
+    text-align: center;
 
 }
 
@@ -612,6 +607,7 @@ ul li a {
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
+    text-align: center;
 }
 
 
