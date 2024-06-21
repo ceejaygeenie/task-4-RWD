@@ -482,7 +482,6 @@ ul li a {
         width: 25px;
         height: 25px;
         display: flex;
-        border: 2px solid red;
     }
 
 
@@ -624,7 +623,6 @@ ul li a {
         line-height: 40px;
         margin-bottom: 20px;
         text-align: center;
-        border: 2px solid red;
     
     }
     
@@ -649,7 +647,6 @@ ul li a {
         padding: 0 10px;
         justify-content: space-between;
         align-items: center;
-        border: 2px solid red;
     }
     
     .feat {
